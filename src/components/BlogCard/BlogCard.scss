@@ -1,0 +1,53 @@
+.blog-card-wrapper {
+  margin: 50px 0px;
+  .css-ny6982-MuiPaper-root-MuiCard-root {
+    border-radius: 0px !important;
+    box-shadow: unset !important;
+  }
+
+  .MuiCardContent-root.css-46bh2p-MuiCardContent-root {
+    padding: 16px 0px;
+  }
+
+  .load-more {
+    display: flex;
+    justify-content: center;
+    button {
+      background: #1e1b1b;
+      color: #fff;
+      border: 1px solid #1e1b1b;
+    }
+
+    button:hover {
+      background: #fff;
+      color: #1e1b1b;
+      border: 1px solid #1e1b1b;
+    }
+  }
+}
+
+.back-to-home {
+  margin-bottom: 20px;
+  button {
+    background: #1e1b1b;
+    color: #fff;
+    border: 1px solid #1e1b1b;
+  }
+
+  button:hover {
+    background: #fff;
+    color: #1e1b1b;
+    border: 1px solid #1e1b1b;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+.eye-icon {
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 5px;
+    }
+}

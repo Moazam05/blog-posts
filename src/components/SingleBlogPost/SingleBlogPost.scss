@@ -1,0 +1,29 @@
+.single-post-wrapper {
+  margin: 50px 0px 25px 0px;
+}
+
+.img-container {
+  height: 384px;
+  width: 100%;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.blog-center-img {
+  margin: 40px 0px;
+  height: 512px;
+  width: 100%;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.eye-icon-posted-date {
+  display: flex;
+}

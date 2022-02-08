@@ -1,0 +1,8 @@
+export const BLOG_POST_REQUEST = 'BLOG_POST_REQUEST';
+export const BLOG_POST_SUCCESS = 'BLOG_POST_SUCCESS';
+export const BLOG_POST_FAIL = 'BLOG_POST_FAIL';
+
+// single blog post
+export const BLOG_DETAIL_REQUEST = 'BLOG_DETAIL_REQUEST';
+export const BLOG_DETAIL_SUCCESS = 'BLOG_DETAIL_SUCCESS';
+export const BLOG_DETAIL_FAIL = 'BLOG_DETAIL_FAIL';
