@@ -16,7 +16,6 @@ export const blogPostAction = () => async (dispatch) => {
     });
 
     const { data } = await axios.get(`${process.env.REACT_APP_API_URL}`);
-    console.log(process.env);
     dispatch({
       type: BLOG_POST_SUCCESS,
       payload: data,
